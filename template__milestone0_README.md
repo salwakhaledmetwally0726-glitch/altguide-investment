@@ -163,7 +163,7 @@ const PortfolioSchema = new mongoose.Schema({
   ]
 });
 
-### [transaction] Schema
+### [portofolio] Schema
 
 ```javascript
 const TransactionSchema = new mongoose.Schema({
