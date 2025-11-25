@@ -150,6 +150,7 @@ const UserSchema = new mongoose.Schema({
 ```
 
 ### [portofolio] Schema
+```javascript
 const PortfolioSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   balance: { type: Number, default: 10000 }, // simulated money
