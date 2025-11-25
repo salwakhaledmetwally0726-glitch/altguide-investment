@@ -97,12 +97,6 @@ Goal Setting & Tracking
 Educational Content Module
 
 Dashboard Overview (Summary of user data)
-_List ALL potential features/user stories envisioned for the complete product (beyond just this course)._
-
-- Feature A
-- Feature B
-- Feature C
-- ...
 
 ### 3.2 Selected MVP Use Cases (Course Scope)
 
@@ -145,21 +139,37 @@ _Define the initial Mongoose Schemas for your application’s main data models (
 
 ```javascript
 const UserSchema = new mongoose.Schema({
-  username: { type: String, required: true },
+  username: { type: String, required: true, unique: true },
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-  // Add other fields...
+  riskLevel: { type: String, enum: ["Low", "Medium", "High"], default: "Low" },
+  createdAt: { type: Date, default: Date.now }
+});
+
 });
 ```
 
-### [Model 2 Name] Schema
+### [portofolio] Schema
+const PortfolioSchema = new mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+  balance: { type: Number, default: 10000 }, // simulated money
+  investments: [
+    {
+      assetName: String,
+      amount: Number,
+      date: Date
+    }
+  ]
+});
+
+### [transaction] Schema
 
 ```javascript
-// Define schema here
-```
+const TransactionSchema = new mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+  type: { type: String, enum: ["Buy", "Sell"], required: true },
+  assetName: String,
+  amount: Number,
+  date: { type: Date, default: Date.now }
+});
 
-### [Model 3 Name] Schema
-
-```javascript
-// Define schema here
-```
