@@ -21,12 +21,12 @@ _List all team members (5-6 students) below._
 
 | Name             | Student ID | Tutorial Group | GitHub Username |
 | :--------------- | :--------- | :------------- | :-------------- |
-| [Student 1 Name] | [ID]       | [T#]           | [@username]     |
-| [Student 2 Name] | [ID]       | [T#]           | [@username]     |
-| [Student 3 Name] | [ID]       | [T#]           | [@username]     |
-| [Student 4 Name] | [ID]       | [T#]           | [@username]     |
-| [Student 5 Name] | [ID]       | [T#]           | [@username]     |
-| [Student 6 Name] | [ID]       | [T#]           | [@username]     |
+| [salwa khaled] | [13007498]       | [T6]           | [salwakhaledmetwally0726-glitch]     |
+| [lojaina mohamed] | [13007458]       | [T6]           | [Lojaina108]     |
+| [mai mohamed] | [13006213]       | [T6]           | [maixmohamed23-sys]     |
+| [shorouk gamal] | [13007144]       | [T6]           | [shroukgamal2005-ui]    |
+| [mohamed walid] | [13007046]       | [T6]           | [Wxllo]     |
+| [omar ehab] | [ 13006897]       | [T3]           | [OmarFernandes8]     |
 
 ---
 
@@ -34,15 +34,49 @@ _List all team members (5-6 students) below._
 
 _Provide a detailed description of your project concept here. What is the app? What problem does it solve?_
 
-- **Concept:** [Brief Summary]
-- **Link to Fin-Tech Course Document:** [Insert Link if applicable]
+- **Concept:** ["AltGuide is a beginner-friendly investment guidance platform designed to help university students build smart savings habits using micro-investment features, educational insights, and automated financial planning."]
+- **Link to Fin-Tech Course Document:** []
 
 ---
 
 ## 3. Feature Breakdown
+These are ALL features your full application could include in the future beyond the course MVP:
 
+User Authentication
+
+Registration, Login, JWT, password hashing
+
+Investment Recommendation Engine
+
+Suggests investments based on user risk score
+
+User Profile & Risk Assessment
+
+Questionnaire to measure risk level
+
+Goal-Based Investing
+
+Set savings goals (education, travel, startup capital, emergency fund…)
+
+Transaction Simulator
+Investment Portfolio Dashboard
+
+Charts showing projected growth, risk, asset distribution
+
+
+Optional extra features
 ### 3.1 Full Scope
+User Authentication (Mandatory)
 
+User Risk Profile Assessment
+
+Investment Recommendations Page
+
+Goal Setting & Tracking
+
+Educational Content Module
+
+Dashboard Overview (Summary of user data)
 _List ALL potential features/user stories envisioned for the complete product (beyond just this course)._
 
 - Feature A
