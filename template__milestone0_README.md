@@ -1,12 +1,5 @@
-# Template README for BINF 503 Project
 
-## Open on GitHub: [template\_\_README.md](https://github.com/nourgaser-giu/giu-bi-ebd-w2025/blob/main/template__milestone0_README.md)
-
-## Download (ctrl+s to save): [template\_\_README.md](https://raw.githubusercontent.com/nourgaser-giu/giu-bi-ebd-w2025/main/template__milestone0_README.md)
-
-<!-- Delete all of the above for your submission -->
-
-# [Insert Project Name Here]
+# [ALTGIUDE]
 
 **Course:** Electronic Business Development (BINF 503)  
 **Semester:** Winter 2025  
@@ -34,7 +27,34 @@ _List all team members (5-6 students) below._
 
 _Provide a detailed description of your project concept here. What is the app? What problem does it solve?_
 
-- **Concept:** ["AltGuide is a beginner-friendly investment guidance platform designed to help university students build smart savings habits using micro-investment features, educational insights, and automated financial planning."]
+- **Concept:** ["AltGuide is a beginner-friendly investment guidance platform designed to help university students build smart savings habits using micro-investment features, educational insights, and automated financial planning."
+-Most young users don’t know:
+
+how to invest,
+
+how to choose the right risk level,
+
+how much money to start with,
+
+or how to understand financial concepts.
+
+This leads to fear, bad financial decisions, or zero savings.
+
+Solution
+
+AltGuide Investment provides:
+
+Micro-investment (start with very small amounts)
+
+AI-powered risk assessment
+
+Beginner-friendly investment guides
+
+Simulated portfolios to practice without losing money
+
+Smart recommendations based on user profile
+
+Core Value ]
 - **Link to Fin-Tech Course Document:** []
 
 ---
@@ -89,12 +109,17 @@ _List ALL potential features/user stories envisioned for the complete product (b
 _From the list above, identify the **5 or 6 specific use cases** you will implement for this course. Note: User Authentication is mandatory._
 
 1.  **User Authentication** (Registration/Login)
-2.  [Use Case 2 Title]
-3.  [Use Case 3 Title]
-4.  [Use Case 4 Title]
-5.  [Use Case 5 Title]
-6.  [Use Case 6 Title - if 6 members]
+2.  User Authentication (Registration/Login)
 
+Use Case 2 – User Investment Dashboard
+
+Use Case 3 – Create & Manage Investment Plans
+
+Use Case 4 – Transaction History & Tracking
+
+Use Case 5 – Portfolio Performance Analytics
+
+Use Case 6 – Financial Insights & Recommendation Engine 
 ---
 
 ## 4. Feature Assignments (Accountability)
@@ -103,12 +128,12 @@ _Assign one distinct use case from Section 3.2 to each team member. This member 
 
 | Team Member | Assigned Use Case       | Brief Description of Responsibility              |
 | :---------- | :---------------------- | :----------------------------------------------- |
-| [Student 1] | **User Authentication** | Register, Login, JWT handling, Password Hashing. |
-| [Student 2] | [Use Case 2]            | [e.g., Create and view Transaction history]      |
-| [Student 3] | [Use Case 3]            | [e.g., Profile management and updates]           |
-| [Student 4] | [Use Case 4]            | [e.g., Transfer funds logic]                     |
-| [Student 5] | [Use Case 5]            | [Description]                                    |
-| [Student 6] | [Use Case 6]            | [Description]                                    |
+| [Salwa] | **User Authentication** | Register, Login, JWT handling, Password Hashing. |
+| [Lojaina] | [Risk Assessment Quiz]            | [Collect user data & calculate risk score]      |
+| [Mai] | [Investment Recommendations]            | [Generate suitable investment options based on risk score]           |
+| [shorouk] | [Portfolio Overview Page]            | [Display user investments, categories & performance]                     |
+| [Mohamed] | [Market Insights Feed]            | [Fetch / display relevant market news to help decision-making]                                    |
+| [Omar] | [User Profile Management]            | [Update profile, investment goals, preferences]                                    |
 
 ---
 
