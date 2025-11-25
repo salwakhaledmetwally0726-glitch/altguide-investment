@@ -1,4 +1,3 @@
-
 # [ALTGIUDE]
 
 **Course:** Electronic Business Development (BINF 503)  
@@ -173,4 +172,3 @@ const TransactionSchema = new mongoose.Schema({
   amount: Number,
   date: { type: Date, default: Date.now }
 });
-
