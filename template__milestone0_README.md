@@ -17,8 +17,6 @@ _List all team members (5-6 students) below._
 | [lojaina mohamed] | [13007458]       | [T6]           | [Lojaina108]     |
 | [mai mohamed] | [13006213]       | [T6]           | [maixmohamed23-sys]     |
 | [shorouk gamal] | [13007144]       | [T6]           | [shroukgamal2005-ui]    |
-| [mohamed walid] | [13007046]       | [T6]           | [Wxllo]     |
-| [omar ehab] | [ 13006897]       | [T3]           | [OmarFernandes8]     |
 
 ---
 
@@ -26,7 +24,7 @@ _List all team members (5-6 students) below._
 
 _Provide a detailed description of your project concept here. What is the app? What problem does it solve?_
 
-- **Concept:** ["AltGuide is a beginner-friendly investment guidance platform designed to help university students build smart savings habits using micro-investment features, educational insights, and automated financial planning."
+- **Concept:** ["AltGuide is a beginner-friendly investment guidance platform designed to help university students build smart savings habits using micro-investment features, educational insights,financial planning."
 -Most young users don’t know:
 
 how to invest,
@@ -43,18 +41,11 @@ Solution
 
 AltGuide Investment provides:
 
-Micro-investment (start with very small amounts)
-
-AI-powered risk assessment
+help you start with Micro-investment (start with very small amounts)
 
 Beginner-friendly investment guides
 
-Simulated portfolios to practice without losing money
-
 Smart recommendations based on user profile
-
-Core Value ]
-- **Link to Fin-Tech Course Document:** []
 
 ---
 
@@ -97,23 +88,28 @@ Educational Content Module
 
 Dashboard Overview (Summary of user data)
 
+notifications and reminders for the investments 
+
 ### 3.2 Selected MVP Use Cases (Course Scope)
 
 _From the list above, identify the **5 or 6 specific use cases** you will implement for this course. Note: User Authentication is mandatory._
 
-1.  **User Authentication** (Registration/Login)
-2.  User Authentication (Registration/Login)
+1.  User Authentication (Registration/Login)
 
-Use Case 2 – User Investment Dashboard
+Use Case 2 – User Risk profile mangemnet 
+users can define thier risk level low medium or high to refect their investment prefrences 
 
-Use Case 3 – Create & Manage Investment Plans
+Use Case 3 – Investment Goals Management
+		Users can create investment goals with target amounts and deadlines.
+	  Users can view, update, and delete their goals.
 
-Use Case 4 – Transaction History & Tracking
-
-Use Case 5 – Portfolio Performance Analytics
-
-Use Case 6 – Financial Insights & Recommendation Engine 
----
+Use Case 4 – Holdings Management
+		Users can record the investments they currently own (e.g., stocks, gold, ETFs).
+		Each holding includes quantity, buy price, and current price.
+		Users can add, update, view, and delete holdings.
+  
+Use Case 5 – Goal Progress Tracking:
+Allows users to track how close they are to achieving each investment goal by calculating and displaying a progress percentage based on the current and target amounts.
 
 ## 4. Feature Assignments (Accountability)
 
@@ -121,12 +117,12 @@ _Assign one distinct use case from Section 3.2 to each team member. This member 
 
 | Team Member | Assigned Use Case       | Brief Description of Responsibility              |
 | :---------- | :---------------------- | :----------------------------------------------- |
-| [Salwa] | **User Authentication** | Register, Login, JWT handling, Password Hashing. |
-| [Lojaina] | [Risk Assessment Quiz]            | [Collect user data & calculate risk score]      |
-| [Mai] | [Investment Recommendations]            | [Generate suitable investment options based on risk score]           |
-| [shorouk] | [Portfolio Overview Page]            | [Display user investments, categories & performance]                     |
-| [Mohamed] | [Market Insights Feed]            | [Fetch / display relevant market news to help decision-making]                                    |
-| [Omar] | [User Profile Management]            | [Update profile, investment goals, preferences]                                    |
+| [mai] | **User Authentication** | Handles user registration and login functionality, including storing user credentials and validating login requests. |
+  | [Lojaina] | [Risk Assessment ]            | [Manages the user’s risk preference (low, medium, high) and allows storing and viewing this information.]    |
+| [salwa ] | [investment goals MANGEMENT ]            | [Responsible for creating, viewing, updating, and deleting investment goals defined by the user.]           |
+| [shorouk] | [holding Mnagement]            | [Manages the user’s current investment holdings, allowing adding, viewing, updating, and deleting owned assets.]                     |
+| [salwa lojaina] | [goal progress tracking ]            | [mplements the calculation and display of progress percentage for each investment goal based on current and target amounts.]                                    |
+                             
 
 ---
 
