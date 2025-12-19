@@ -121,7 +121,7 @@ _Assign one distinct use case from Section 3.2 to each team member. This member 
   | [Lojaina] | [Risk Assessment ]            | [Manages the user’s risk preference (low, medium, high) and allows storing and viewing this information.]    |
 | [salwa ] | [investment goals MANGEMENT ]            | [Responsible for creating, viewing, updating, and deleting investment goals defined by the user.]           |
 | [shorouk] | [holding Mnagement]            | [Manages the user’s current investment holdings, allowing adding, viewing, updating, and deleting owned assets.]                     |
-| [salwa lojaina] | [goal progress tracking ]            | [mplements the calculation and display of progress percentage for each investment goal based on current and target amounts.]                                    |
+| [salwa mai] | [goal progress tracking ]            | [mplements the calculation and display of progress percentage for each investment goal based on current and target amounts.]                                    |
                              
 
 ---
